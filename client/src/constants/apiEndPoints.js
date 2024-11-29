@@ -1,6 +1,5 @@
-const BASE_URL = "http://localhost:8000";
-
-//const BASE_URL = "https://clone-x-app.onrender.com";
+//const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://clone-x-app.onrender.com";
  export const authEndPoints = {
    signup: `${BASE_URL}/api/auth/signup`,
    login: `${BASE_URL}/api/auth/login`,
