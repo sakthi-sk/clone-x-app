@@ -1,0 +1,19 @@
+.App{
+     background-color:var(--bod-background-color) ;
+     height: 100Vh;
+     width: 100%;
+     overflow-x: hidden;
+     overflow-y: auto;
+}
+
+.userInfoLink {
+     flex-grow: 1;
+     text-align: center;
+     padding: 5px;
+     /* width: fit-content; */
+
+}
+
+.userInfoLink:active {
+     background: #2a2a2a;
+}

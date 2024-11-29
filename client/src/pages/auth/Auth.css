@@ -1,0 +1,7 @@
+.other_info>p{
+    text-decoration: underline;
+    font-weight: 240;
+    color: rgb(210, 210, 210);
+    text-align: end;
+    cursor: pointer;
+}
