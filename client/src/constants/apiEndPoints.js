@@ -1,6 +1,6 @@
-//const BASE_URL = "http://localhost:8000/api/";
+const BASE_URL = "http://localhost:8000";
 
-const BASE_URL = "https://clone-x-app.onrender.com";
+//const BASE_URL = "https://clone-x-app.onrender.com";
  export const authEndPoints = {
    signup: `${BASE_URL}/api/auth/signup`,
    login: `${BASE_URL}/api/auth/login`,
@@ -21,9 +21,8 @@ export const postEndPoints = {
 };
 
 export const user = {
-  suggested: `${BASE_URL}user/suggested`,
-  ProfileUser: `${BASE_URL}user/profile`,
-  updateUser: `${BASE_URL}user/update`,
-  followUnFollow: `${BASE_URL}user/follow`,
- 
+  suggested: `${BASE_URL}/api/user/suggested`,
+  ProfileUser: `${BASE_URL}/api/user/profile`,
+  updateUser: `${BASE_URL}/api/user/update`,
+  followUnFollow: `${BASE_URL}/api/user/follow`,
 };
