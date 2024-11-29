@@ -1,23 +1,23 @@
 //const BASE_URL = "http://localhost:8000/api/";
 
-const BASE_URL = "https://clone-x-app.onrender.com/api/";
+const BASE_URL = "https://clone-x-app.onrender.com";
  export const authEndPoints = {
-  signup: `${BASE_URL}auth/signup`,
-  login: `${BASE_URL}auth/login`,
-  logout: `${BASE_URL}auth/logout`,
-  getMe: `${BASE_URL}auth/me`,
-};
+   signup: `${BASE_URL}/api/auth/signup`,
+   login: `${BASE_URL}/api/auth/login`,
+   logout: `${BASE_URL}/api/auth/logout`,
+   getMe: `${BASE_URL}/api/auth/me`,
+ };
 export const postEndPoints = {
-  newPost: `${BASE_URL}posts/create`,
-  allPost: `${BASE_URL}posts/all`,
-  followingPost: `${BASE_URL}posts/following`,
-  userPost: `${BASE_URL}posts/user`,
-  comment: `${BASE_URL}posts/comment`,
-  likeUnlike: `${BASE_URL}posts/like`,
-  likePost: `${BASE_URL}posts/likes`,
-  delete: `${BASE_URL}posts`,
-  notification: `${BASE_URL}notifications`,
-  commentGet: `${BASE_URL}posts/comment`,
+  newPost: `${BASE_URL}/api/posts/create`,
+  allPost: `${BASE_URL}/api/posts/all`,
+  followingPost: `${BASE_URL}/api/posts/following`,
+  userPost: `${BASE_URL}/api/posts/user`,
+  comment: `${BASE_URL}/api/posts/comment`,
+  likeUnlike: `${BASE_URL}/api/posts/like`,
+  likePost: `${BASE_URL}/api/posts/likes`,
+  delete: `${BASE_URL}/api/posts`,
+  notification: `${BASE_URL}/api/notifications`,
+  commentGet: `${BASE_URL}/api/posts/comment`,
 };
 
 export const user = {

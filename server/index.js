@@ -28,8 +28,8 @@ cloudinary.config({
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    credentials:true
+    origin: "https://clone-x-app.onrender.com",
+    credentials: true,
   })
 );
 app.use(express.json(
